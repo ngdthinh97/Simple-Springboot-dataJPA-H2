@@ -1,6 +1,6 @@
 package guru.simple.webapplication.started.model;
 
-import java.util.HashSet;
+import java.util.HashSet; 
 import java.util.Set;
 
 import javax.persistence.Entity;
@@ -61,7 +61,7 @@ public class Author {
 	
 	@Override
 	public String toString() {
-		return "Author [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", book=" + book + "]";
+		return "Author [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", book=" + book + "]"; // infinity loop
 	}
 	@Override
 	public int hashCode() {
